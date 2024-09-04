@@ -1,0 +1,25 @@
+.damaBianca
+{
+    -fx-background-image: url("../../images/BoardGameImages/DamaBianca.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+.damaNera
+{
+    -fx-background-image: url("../../images/BoardGameImages/DamaNera.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+.blank
+{
+
+}
+
+.board
+{
+    -fx-background-color: #75511A;
+}

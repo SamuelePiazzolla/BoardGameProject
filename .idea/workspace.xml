@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/boardgame/game-board.fxml" afterDir="false" />
+    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="Modifiche">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/dama/damaStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/boardgame/game-board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/boardgame/game-board.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +20,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,9 +34,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lZAMb4t70fFj870xUT8WitY3GX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,10 +45,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GameBoardApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/samue/IdeaProjects/BoardGameProject/src/main/resources/styles/dama",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,10 +62,40 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\IdeaProjects\BoardGameProject\src\main\resources\styles\dama" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samue\IdeaProjects\BoardGameProject\src\main\resources\boardgame" />
       <recent name="C:\Users\samue\IdeaProjects\BoardGameProject\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameBoardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boardgame.GameBoardApplication" />
+      <module name="BoardGameProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boardgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameBoardApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,8 +105,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725377180996</updated>
-      <workItem from="1725377182330" duration="957000" />
+      <workItem from="1725377182330" duration="5289000" />
+      <workItem from="1725457183647" duration="5568000" />
     </task>
+    <task id="LOCAL-00001" summary="Immagine Dama Bianca">
+      <option name="closed" value="true" />
+      <created>1725382124864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382124865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Immagine Dama Nera">
+      <option name="closed" value="true" />
+      <created>1725382135644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382135644</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Set Pezzi Scacchi">
+      <option name="closed" value="true" />
+      <created>1725382146457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382146457</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Immagine re bianco">
+      <option name="closed" value="true" />
+      <created>1725382162379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382162379</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Immagine re nero">
+      <option name="closed" value="true" />
+      <created>1725382167661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382167661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modifiche">
+      <option name="closed" value="true" />
+      <created>1725382182359</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725382182359</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +172,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Immagine Dama Bianca" />
+    <MESSAGE value="Immagine Dama Nera" />
+    <MESSAGE value="Set Pezzi Scacchi" />
+    <MESSAGE value="Immagine re bianco" />
+    <MESSAGE value="Immagine re nero" />
+    <MESSAGE value="Modifiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifiche" />
   </component>
 </project>
