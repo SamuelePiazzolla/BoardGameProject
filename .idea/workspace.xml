@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="Modifiche">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/dama/damaStyles.css" afterDir="false" />
+    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="Modifiche:&#10;- Aggiunto file css per gestire le backgrounf image (i pezzi)&#10;- Aggiunto initialize per inserire i pezzi all'interno dello scacchiera e salvare i pane che contengono pezzi">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/BoardGameImages/DoppiaBianca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/BoardGameImages/DoppiaNera.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boardgame/GameBoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/boardgame/game-board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/boardgame/game-board.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/dama/damaStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/dama/damaStyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/samue/IdeaProjects/BoardGameProject/src/main/resources/styles/dama",
+    "last_opened_file_path": "C:/Users/samue/IdeaProjects/BoardGameProject/src/main/resources/images/BoardGameImages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\IdeaProjects\BoardGameProject\src\main\resources\images\BoardGameImages" />
       <recent name="C:\Users\samue\IdeaProjects\BoardGameProject\src\main\resources\styles\dama" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -106,7 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1725377180996</updated>
       <workItem from="1725377182330" duration="5289000" />
-      <workItem from="1725457183647" duration="5568000" />
+      <workItem from="1725457183647" duration="6087000" />
+      <workItem from="1725463484724" duration="311000" />
+      <workItem from="1725531116236" duration="9404000" />
     </task>
     <task id="LOCAL-00001" summary="Immagine Dama Bianca">
       <option name="closed" value="true" />
@@ -156,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725382182359</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modifiche:&#10;- Aggiunto file css per gestire le backgrounf image (i pezzi)&#10;- Aggiunto initialize per inserire i pezzi all'interno dello scacchiera e salvare i pane che contengono pezzi">
+      <option name="closed" value="true" />
+      <created>1725463204359</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725463204359</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +193,7 @@
     <MESSAGE value="Immagine re bianco" />
     <MESSAGE value="Immagine re nero" />
     <MESSAGE value="Modifiche" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifiche" />
+    <MESSAGE value="Modifiche:&#10;- Aggiunto file css per gestire le backgrounf image (i pezzi)&#10;- Aggiunto initialize per inserire i pezzi all'interno dello scacchiera e salvare i pane che contengono pezzi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifiche:&#10;- Aggiunto file css per gestire le backgrounf image (i pezzi)&#10;- Aggiunto initialize per inserire i pezzi all'interno dello scacchiera e salvare i pane che contengono pezzi" />
   </component>
 </project>

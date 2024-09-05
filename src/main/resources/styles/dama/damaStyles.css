@@ -23,3 +23,21 @@
 {
     -fx-background-color: #75511A;
 }
+
+.selezionatoB
+{
+    -fx-background-image: url("../../images/BoardGameImages/DamaBianca.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-border-color: yellow;
+}
+
+.selezionatoN
+{
+    -fx-background-image: url("../../images/BoardGameImages/DamaNera.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-border-color: yellow;
+}
