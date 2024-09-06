@@ -88,7 +88,7 @@ public class GameBoardController {
         //Mi salvo il punto cliccato
         Pane spazio = null;
         try {
-            spazio = (Pane) e.getSource();
+            spazio = (Pane)e.getSource();
         }
         catch (Exception exc)
         {
@@ -177,7 +177,7 @@ public class GameBoardController {
             else
             {
                 //Se è um pezzo me lo salvo come selezionato
-                if (spazio.getStyleClass().toString().contains( "damaNera"))
+                if (spazio.getStyleClass().toString().contains("damaNera"))
                 {
                     selected = true;
                     pezzo = spazio;
