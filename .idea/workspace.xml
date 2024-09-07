@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="Modifiche:&#10;-niente di serio" />
+    <list default="true" id="e2a375c2-4018-4d86-8328-5e6f2dca9d4a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +108,7 @@
       <workItem from="1725567063860" duration="73000" />
       <workItem from="1725635393129" duration="3482000" />
       <workItem from="1725639067980" duration="471000" />
-      <workItem from="1725706317397" duration="360000" />
+      <workItem from="1725706317397" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Immagine Dama Bianca">
       <option name="closed" value="true" />
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725706442163</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modifiche:&#10;-niente di serio">
+      <option name="closed" value="true" />
+      <created>1725706978468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725706978468</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -183,6 +183,7 @@ public class GameBoardController {
                     pezzo = spazio;
                     pezzo.getStyleClass().clear();
                     pezzo.getStyleClass().add("selezionatoN");
+                    //PROVA COMMIT
                 }
             }
         }
